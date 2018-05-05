@@ -1,0 +1,15 @@
+{
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/.vscode": true,
+    "!**/.vscode/*.json": false,
+    "!**/dist": false,
+    "!**/.temp": false,
+    "**/.idea": true
+  },
+  "npm.exclude": [
+    "**/node_modules/**",
+    "**/.history/**"
+  ]
+}

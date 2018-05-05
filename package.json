@@ -1,0 +1,30 @@
+{
+  "name": "@webdev-tools/tslint-airbnb-styleguide",
+  "version": "0.0.1",
+  "description": "A TSLint config for Airbnb JavaScript Styleguide highly opinionated",
+  "main": "tslint.js",
+  "scripts": {
+    "test": "tslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webdev-tools/tslint-airbnb-styleguide.git"
+  },
+  "author": "webdev-tools",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/webdev-tools/tslint-airbnb-styleguide/issues"
+  },
+  "homepage": "https://github.com/webdev-tools/tslint-airbnb-styleguide#readme",
+  "dependencies": {
+    "tslint": "^5.10.0",
+    "tslint-config-airbnb": "^5.8.0",
+    "tslint-eslint-rules": "^5.1.0"
+  },
+  "keywords": [
+    "airbnb",
+    "tslint",
+    "typescript",
+    "styleguide"
+  ]
+}
