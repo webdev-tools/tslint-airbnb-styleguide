@@ -4,7 +4,7 @@
   "description": "A TSLint config for Airbnb JavaScript Styleguide highly opinionated",
   "main": "tslint.js",
   "scripts": {
-    "publish:lib": "npm publish --access public",
+    "lib:publish": "npm publish --access public",
     "postversion": "npm run lib:publish && git push && git push --tags"
   },
   "repository": {
