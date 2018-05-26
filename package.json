@@ -5,7 +5,7 @@
   "main": "tslint.js",
   "scripts": {
     "publish:lib": "npm publish --access public",
-    "postversion": "git push && git push --tags && npm run publish:lib"
+    "postversion": "npm run lib:publish && git push && git push --tags"
   },
   "repository": {
     "type": "git",
@@ -19,8 +19,8 @@
   "homepage": "https://github.com/webdev-tools/tslint-airbnb-styleguide#readme",
   "dependencies": {
     "tslint": "^5.10.0",
-    "tslint-config-airbnb": "^5.8.0",
-    "tslint-eslint-rules": "^5.1.0"
+    "tslint-config-airbnb": "^5.9.2",
+    "tslint-eslint-rules": "^5.3.1"
   },
   "keywords": [
     "airbnb",

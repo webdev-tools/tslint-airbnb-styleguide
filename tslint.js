@@ -1,4 +1,5 @@
 module.exports = {
+  $schema: 'http://json.schemastore.org/tslint',
   extends: ['tslint-config-airbnb', 'tslint-eslint-rules'],
   rules: {
     'arrow-return-shorthand': true,

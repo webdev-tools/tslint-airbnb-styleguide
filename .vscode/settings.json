@@ -1,15 +1,25 @@
 {
-  "search.exclude": {
-    "**/node_modules": true,
-    "**/bower_components": true,
-    "**/.vscode": true,
-    "!**/.vscode/*.json": false,
-    "!**/dist": false,
-    "!**/.temp": false,
-    "**/.idea": true
-  },
+  "cSpell.words": [
+    "forin",
+    "inferrable",
+    "isnan",
+    "linebreak",
+    "nospace",
+    "postversion",
+    "quotemark"
+  ],
   "npm.exclude": [
     "**/node_modules/**",
     "**/.history/**"
-  ]
+  ],
+  "search.exclude": {
+    "!**/.temp": false,
+    "!**/.vscode/*.json": false,
+    "!**/dist": false,
+    "**/.idea": true,
+    "**/.vscode": true,
+    "**/bower_components": true,
+    "**/node_modules": true
+  },
+  "tslint.jsEnable": true
 }
